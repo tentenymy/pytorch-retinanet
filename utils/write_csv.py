@@ -35,7 +35,7 @@ for tag in os.listdir(label_dir_path):
 
 	# read to list
 	tag = tag.replace('.xml', '.jpg')
-	image_no_list.append(tag)
+	image_no_list.append('/floyd/home/data/' + tag)
 	bbox_list.append(bbox)
 
 # read to csv
